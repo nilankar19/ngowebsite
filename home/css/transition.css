@@ -1,0 +1,65 @@
+/* -------------- row-3 -------------------------- */
+/*ourmission-card circle*/
+/* .info1-cl , .info2-cl{
+    z-index: -1;
+    width: 100%;
+    height: 141px;
+    border: 1px solid rgb(49, 183, 114);
+    border-left: none;
+    border-radius: 0;
+
+}
+.ourmission-1 , .ourvision-2{
+    border: 1px solid rgb(113, 172, 121);
+    background-color: white;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+   
+    padding-left: 2px;
+    margin-left: -4px;
+}
+.info1-cl , .info2-cl{
+    display: none;
+    width: 100%;
+   margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} */
+.row-mission-img-one{
+    margin-left: 0px;
+    width: 50%;
+ 
+}
+.row-mission-img-two{
+    /* margin-left: 0px; */
+    width: 50%;
+    
+     /* margin-left: 20px;
+    margin-right: 20px; */
+  
+}
+@keyframes slidein {
+    0% {
+     margin-left:-800px;
+    }
+  
+    100%{
+     margin-left: 0;
+     
+    }
+  }
+  #our-mission-id{
+     
+    font-size: 1vw;
+    margin-top: 41px;
+    margin-left: 33px;
+    
+  }

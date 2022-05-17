@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+a{ 
+    color: indigo;
+    text-decoration: none;
+}
+header{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#h-title{
+    background: -webkit-linear-gradient(89deg,rgb(249 0 0),#00bcd4 40%);
+  background-clip:inherit;
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+   
+    /* font-size: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  */
+    position: absolute;
+}
+.title-m{
+    width: 20%;  
+}
+.title-name{
+ font-size: 3vw;
+ position: absolute;
+ padding-left: 4.5%;
+ 
+}
+.t-img{
+    width: 100%;
+   
+}
+/* menu-list */
+.m-mediaq-a{
+    display: none;
+    width: 100%;
+    height: 36px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+   /* border: 1px solid rgb(54 229 139 / 58%); */
+    /* border-radius: 92px; */
+}
+.m-mediaq{
+    display: none;
+}
+.m-list{
+font-size: 1.1vw;
+text-align: center;
+
+padding-top: 9px;
+}
+.m-list:hover{
+    border: 1px solid rgb(54 229 139 / 58%);
+    border-radius: 5px;
+   
+}
+.am{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-left: 5%;
+}
+
+.arrow_mlist3 {
+    margin-top: -3px;
+    margin-left: 3px;
+    position: relative;
+}
+
+
+/*learn-hover-------------------------------*/
+.learn-hover{
+    z-index: 3;
+    margin-top: 20px;
+    padding-top: -16px;
+    margin-left: -69px;
+    display: none;
+    position: absolute;
+    width:200px;
+    border: 1px solid rgb(255, 255, 255);
+   
+    background-color: white;
+  
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px 0px rgba(16, 15, 15, 0.1);
+    transition: 0.5s;
+
+}
+
+#learn-hover-list1{
+    border-bottom: 1px solid rgb(147 177 147 / 29%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    padding-top:20px;
+    padding-bottom:22px;
+    margin-bottom: -2px;
+    margin-top: 2px;
+    line-height: 10px;
+}
+#learn-hover-list1:hover{
+    background-color: #b4d3d7;
+}
+.gh{
+    display: flex;
+    flex-direction: row;
+}
+
+
+main{
+    margin: 2%;
+}
+
+
+/* row-1 aaews info ----- */
+.about-r1-info{
+    /* padding-left: 56px; */
+    margin-left: 6%;
+    padding-top: 10px;
+    opacity: 1;
+    font-family: monospace;
+    font-size: 1.3vw;
+    line-height: 22px;
+    font-weight: 500;
+}
+.row-one{
+    display: flex;
+    flex-direction: row;
+}
+#blk1{
+    width: 50%;
+    height: fit-content;
+    margin-left: 6%;
+}
+.our-mission-row-3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:#023c00;;
+   }
+   /* -- row-4 -- */
+/* doantaion button */
+.f-donation-butt-mq{
+display: none;
+}
