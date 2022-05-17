@@ -1,2 +1,0 @@
-# randhir.github.io
-webtemplate
