@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ourwork.css">
+    <link rel="stylesheet" href="css/orightside.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/copyright.css">
+    <link rel="stylesheet" href="css/mediaq.css">
+    <title>Document</title>
+</head>
+<body>
+    <header  id="#scroll-postion" onmouseenter="scrolls()"  onmouseleave="learnout()">
+        <div class="title-m">
+          <span class="title-name" id="h-title" title="ATYUTTAM ADARSH EDUCATIONAL AND WELFARE SOCIETY - NAWADA - BIHAR">aaews</span>
+          <img class="t-img" src="logo/aaews.svg" alt="aaews">
+        </div>
+        <span class=" m-mediaq-a ">
+         <a href="file:///D:/final%20aaews/home/subdir/aboutus/aboutus.html" class="m-list am "><span class="box-aboutus" >ABOUT US</span></a>
+          <a href="#" class="m-list am owlb"><span class="box-aboutus ow" >OUR WORK</span></a>
+        
+            <a href="#" class="m-list am" onmouseover="learn()" ><span class="box-aboutus" >LEARN <img class="arrow_mlist3 " src="logo/arrow-down.svg" alt="">
+            </span></a>
+            <div class="learn-hover"  onmouseleave="learnout()">
+              <div id="learn-hover-list1"><a href="#">Moonknight</a></div>
+              <div id="learn-hover-list1"><a href="#">Thor</a></div>
+              <div id="learn-hover-list1"><a href="#">Mss Marvel</a> </div>
+              <div id="learn-hover-list1"><a href="#">Doctor strange</a></div>
+              <div id="learn-hover-list1"> <a href="#">spiderman</a></div>
+            </div>
+        
+          <a href="#" class="m-list am"><span class="box-aboutus" >UPCOMING PROGRAM</span></a>
+          <a href="#" class="m-list am"><span class="box-aboutus" >CONTACT US</span></a>
+     </span> 
+    </header>
+    
+    <!-- mobile -device -->
+    <span class=" m-mediaq ">
+      <div class="m-list "><a href="#" class="box-aboutus"><span  >ABOUT US</span></a></div>
+      <div class="m-list"><a href="#"><span class="box-aboutus" >OUR WORK</span></a></div>
+      <div class="m-list ml" >
+         <span class="box-aboutus" >LEARN</span>
+        <img class="arrow_mlist3" src="logo/arrow-down.svg" alt="ar">
+      </div>
+      
+      <div class="m-list"><a href="#"><span class="box-aboutus" >UPCOMING PROGRAM</span></a></div>
+      <div class="m-list"><a href="#"><span class="box-aboutus" >CONTACT US</span></a></div>
+ </span> 
+<!-- <hr> -->
+
+<!-- mobile-device-container -->
+<div class="learn-hover-m" style="display: none;">
+  <div id="learn-hover-list1"><a href="#">Moonknight</a></div>
+  <div id="learn-hover-list1"><a href="#">Thor</a></div>
+  <div id="learn-hover-list1"><a href="#">Mss Marvel</a> </div>
+  <div id="learn-hover-list1"><a href="#">Doctor strange</a></div>
+  <div id="learn-hover-list1"> <a href="#">spiderman</a></div>
+</div>
+<div class="menu-right-ourwork-mediaq">
+  <div id="voo" onclick="kypinfo(true,false,false,false)">
+   
+   <h2 >vocational training</h2>
+  </div>
+  <div id="voo" onclick="kypinfo(false,true,false,false)"> 
+    <h2  >financial awerness</h2>
+   </div>
+
+   <div id="voo" onclick="kypinfo(false,false,true,false)">
+    <h2>blood donation camp</h2>
+   </div>
+   <div id="voo" onclick="kypinfo(false,false,false,true)">
+    <h2>Plantation</h2>
+   </div>
+  </div>
+
+<!-- main -->
+<main>
+  <div style="width: 100%;  display: flex;flex-direction: row;">
+  <div style="float: left;"  class="menu-left-ourwork" >
+  <div id="m-r-o" class="ao">
+    <img src="card/el.jpg" class="img-ourwork" alt="img" >
+  </div>
+  <div  id="m-r-o" class="bo">
+    <img src="card/aot.jpg" class="img-ourwork" alt="img" >
+  </div>
+  <div  id="m-r-o" class="co">
+    <img src="card/aot1.png" class="img-ourwork" alt="img" >
+  </div>
+  <div  id="m-r-o" class="do">
+    <img src="card/h.jpg" class="img-ourwork" alt="img" >
+  </div>
+  </div>
+ 
+  <div class="menu-right-ourwork">
+  <div id="voo" onclick="kypinfo(true,false,false,false)">
+   
+   <h2 >Vocational training</h2>
+  </div>
+  <div id="voo" onclick="kypinfo(false,true,false,false)"> 
+    <h2  >Financial awerness</h2>
+   </div>
+
+   <div id="voo" onclick="kypinfo(false,false,true,false)">
+    <h2>Blood donation camp</h2>
+   </div>
+   <div id="voo" onclick="kypinfo(false,false,false,true)">
+    <h2>Plantation</h2>
+   </div>
+  </div>
+</div>
+
+</main>
+<script>
+  let x = document.querySelector("header ");
+ window.onscroll = () => { 
+   let y = x.offsetTop;
+  let y_var = window.pageYOffset;
+ if(y < y_var)
+  document.querySelector(".menu-right-ourwork").classList.add("sticky-m");
+  if(y_var == 0)  document.querySelector(".menu-right-ourwork").classList.remove("sticky-m");
+ }
+ 
+</script>
+
+<footer class="footer_one"  >
+    <div class="f-left footer-left">
+         <div style=" margin-top: 2%; background-color:white; padding-bottom: 8px; padding-left: 19px; padding-right: 14px; border-bottom: 1px solid rgb(255, 255, 255); "> 
+          <span style="font-size: 2em;">aaews |</span>
+          <br> <br> ATYUTTAM ADARSH EDUCATIONAL AND WELFARE SOCIETY - NAWADA - BIHAR</div>
+         <div class="footer-row2 foot-info">
+                <div class="connect">
+                    <h3>Connect with us</h3>
+                    <h4>Contacts us:</h4>
+                    <h4>Help centre</h4>
+                    <h4>Ask a Question</h4>
+                </div>
+                <div class="get-to">
+                    <h3>Get to know us</h3>
+                    <p>Blog</p>
+                    <p>About us</p>
+                    <p>social media</p>
+                </div>
+       <!-- second  -->
+         </div>
+         
+ </div>
+    </div>
+    <!-- main -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+   
+</footer>
+<div class="copyright">
+  <div style="  padding-top: 2%; display: flex; flex-direction: row;     JUSTIFY-CONTENT: CENTER;">
+    <a class="p-c" style="border-radius: 50px; box-shadow: rgb(116 86 86 / 14%) 0px 3px 3px 3px;" href="privacy-policy/privacypolicy.html"><p>Privacy Policy</p></a>
+   <a class="p-c" style="    width: 17%; border-radius: 50px; box-shadow: rgb(116 86 86 / 14%) 0px 3px 3px 3px;" href=""><p>Copyright Claims DMCA</p></a> 
+    </div>
+    <p style="text-align: center; padding-top: 1%;">Copyright © 2022 AAEWS</p>
+</div>
+<script>
+  document.querySelector(".ow").style.color="red";
+  document.querySelector(".owlb").style.background.color="red";
+
+</script>
+    <script src="home/js/index.js" type="text/javascript"></script>
+    <script src="js/rowfour.js" type="text/javascript"></script>
+    <script src="home/js/rowfour.js" type="text/javascript"></script>
+</body>
+</html>
