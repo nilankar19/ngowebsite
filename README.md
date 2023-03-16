@@ -1,5 +1,5 @@
 # ngo_website template
-<a href="https://nilankar19.github.io/ngowebsite/" ><img
+<a href="https://nilankar19.github.io/ngowebsite-p3/" ><img
   src="ngowebsite.jpg"
   alt="img"
   title="click me"
